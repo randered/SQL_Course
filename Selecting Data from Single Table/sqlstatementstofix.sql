@@ -19,7 +19,7 @@ SELECT first_name, last_name,
 concat(LEFT(first_name, 1), LEFT(last_name, 1)) as Initials from employees;
 
 SELECT * FROM employees WHERE first_name = 'Elvis' and last_name = 'Velasco'
-and first_name = 'Chenye' and last_name = 'Velasco';
+or first_name = 'Chenye' and last_name = 'Velasco';
 
 SELECT * FROM employees WHERE first_name in ('Elvis', 'Sumant','Berni', 'Lillian');
 
